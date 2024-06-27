@@ -1,0 +1,116 @@
+.page {
+  display: flex;
+  padding: 5% 20%;
+}
+
+.quiz {
+  background-color: rgb(176, 218, 254);
+  width: 500px;
+  height: 400px;
+  margin: 0% 5%;
+  border: 2px solid;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.questionsNumber {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.number {
+  width: 25px;
+  height: 25px;
+  margin: 20px;
+  border: 2px solid;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(248, 248, 248);
+}
+
+.active {
+  background-color: red;
+}
+
+.display {
+  margin: 1% 5%;
+}
+
+.questionTitle {
+  margin-bottom: 10px;
+}
+
+.answersList {
+  display: flex;
+  flex-direction: column;
+}
+
+.answer {
+  height: 25px;
+  margin: 1% 5%;
+  padding-left: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.answer:hover {
+  background-color: greenyellow;
+}
+
+.result {
+  width: 500px;
+  height: 400px;
+  margin: 0% 5%;
+  padding-top: 10%;
+  border: 2px solid;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: rgb(176, 218, 254);
+}
+
+.repeat {
+  height: 25px;
+  margin-top: 2%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.form {
+  width: 250px;
+  height: 250px;
+  border: 2px solid;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(176, 218, 254);
+}
+
+.inputBox {
+  display: flex;
+}
+
+input {
+  width: auto;
+  height: 30px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.addForm {
+  width: auto;
+  height: 30px;
+  margin: 5px;
+  border-radius: 5px;
+}
